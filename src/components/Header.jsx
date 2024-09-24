@@ -9,7 +9,9 @@ export default function Header() {
             CONSCIOUSLY MADE BUTTER SOFT STAPLES FOR EVERY DAY (OR NIGHT)
           </span>
           <span className="me-3">|</span>
-          <span className="me-3">FREE SHIPPING on orders &gt; $200</span>
+          <span className="me-3 shipping">
+            FREE SHIPPING on orders &gt; $200
+          </span>
           <span className="me-3">|</span>
           <span>easy 45 day return window.</span>
         </div>
