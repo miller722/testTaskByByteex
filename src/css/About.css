@@ -17,12 +17,27 @@
     width: 100%;
 }
 
+.about__title--mobile {
+    display: none;
+}
+.about__title--desktop {
+    display: block;
+    margin-bottom: 30px;
+}
+
 @media (max-width: 500px) {
     .about-section {
         padding: 40px 30px;
     }
     .about-content {
         margin-top: 45px;
+    }
+
+    .about__title--mobile {
+        display: block;
+    }
+    .about__title--desktop {
+        display: none;
     }
     
   }

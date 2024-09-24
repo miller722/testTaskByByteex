@@ -2,7 +2,7 @@
 @import "./css/Hero.css";
 @import "./css/Features.css";
 @import "./css/About.css";
-
+@import "./css/Order.css";
 
 :root {
   --main-title-color: #01005B; 
@@ -34,12 +34,14 @@ ul {
 h1 {
   color: var(--main-title-color);
   font-size: 38px;
+  font-weight: bold;
   padding-bottom: 30px;
 }
 
 h2 {
   color: var(--main-title-color);
   font-size: 32px;
+  font-weight: bold;
 }
 
 .header {
