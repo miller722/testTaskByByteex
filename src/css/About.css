@@ -1,0 +1,29 @@
+.about-section {
+    background-color: #F0EEEF;
+    padding: 80px 10px;
+}
+
+.about-description {
+    margin-bottom: 30px;
+}
+
+.about-description p{
+    padding: 10px 0;
+    color: #6C6C6C;
+    font-size: 15px;
+}
+
+.about-image {
+    width: 100%;
+}
+
+@media (max-width: 500px) {
+    .about-section {
+        padding: 40px 30px;
+    }
+    .about-content {
+        margin-top: 45px;
+    }
+    
+  }
+  

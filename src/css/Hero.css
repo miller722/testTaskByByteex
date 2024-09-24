@@ -1,0 +1,39 @@
+.hero-list {
+    padding-bottom: 40px;
+  }
+  
+  .hero-list img{
+    margin-right: 10px;
+  } 
+  
+  .hero-list li {
+    margin-top: 15px;
+    font-size: 15px;
+    color: #676869;
+  }
+  
+  .hero-image {
+    margin-top: 100px;
+  }
+  
+  .review {
+    margin-top: 20px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    color: #777;
+  }
+
+  @media (max-width: 500px) {
+
+  .hero-content-wrapper{
+    flex-direction: column-reverse;
+    padding: 10px 30px;
+}
+.hero-content {
+  padding: 0 40px;
+}
+
+}
+  
