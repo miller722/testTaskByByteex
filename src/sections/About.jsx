@@ -5,7 +5,7 @@ export default function About() {
   return (
     <section className="about-section">
       <Container>
-        <h2>Be your best self.</h2>
+        <h2 className="about__title--mobile">Be your best self.</h2>
         <Row>
           <Col xxl={{ span: 4 }}>
             <div className="image__wrapper">
@@ -17,6 +17,7 @@ export default function About() {
             </div>
           </Col>
           <Col xxl={{ offset: 2, span: 6 }}>
+            <h2 className="about__title--desktop">Be your best self.</h2>
             <div className="about-content">
               <div className="about-description">
                 <p>

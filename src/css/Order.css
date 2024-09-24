@@ -1,0 +1,58 @@
+.order__title {
+    margin-bottom: 45px;
+}
+
+.customer-reviews span:first-of-type {
+    font-size: 13px;
+  }
+  
+
+.customer-reviews > span + span {
+  margin-left: 15px;
+  font-size: 12px;
+  color: #828282;
+  vertical-align: bottom;
+}
+
+.card-icon {
+    width: 55px;
+}
+
+.order__card {
+    padding: 100px 35px;
+    background-color: #F0EEEF;
+    border-radius: 8px;
+    border: 1px solid #EDEDED;
+    margin-bottom: 50px;
+}
+
+.card--pink {
+    background-color: #F9F0E6;
+    padding: 103px 35px;
+}
+
+.order__card h4 {
+   padding: 20px 0;
+   color: var(--main-title-color);
+   font-size: 22px;
+   font-weight: bold;
+}
+
+.order__card p {
+    font-size: 15px;
+    color: #676869;
+ }
+
+ @media (max-width: 500px) {
+    .order__title {
+        margin-bottom: 25px;
+    }
+    .swiper-button-prev:after, .swiper-button-next:after{
+        font-size: 25px !important;
+        color: #676869;
+    }
+    .swiper-button-prev, .swiper-button-next {
+        top: 45% !important;
+    }
+  }
+  

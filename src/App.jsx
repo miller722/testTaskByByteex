@@ -5,6 +5,7 @@ import "./App.css";
 import Hero from "./sections/Hero";
 import Features from "./sections/Features";
 import About from "./sections/About";
+import Order from "./sections/Order";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <Features />
       <About />
+      <Order />
     </>
   );
 }
