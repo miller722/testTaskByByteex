@@ -2,6 +2,7 @@
     padding-bottom: 40px;
   }
   
+  
   .hero-list img{
     margin-right: 10px;
   } 
@@ -32,7 +33,7 @@
     padding: 10px 30px;
 }
 .hero-content {
-  padding: 0 40px;
+  padding: 0 20px;
 }
 
 }

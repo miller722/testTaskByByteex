@@ -5,7 +5,8 @@
 @import "./css/Order.css";
 @import "./css/Testimonials.css";
 @import "./css/FAQ.css";
-
+@import "./css/InfoBanner.css";
+@import "./css/Final.css";
 :root {
   --main-title-color: #01005B; 
 }
@@ -75,8 +76,6 @@ button:hover {
   width: 100%;
 }
 
-
-
 @media (max-width: 800px) {
 
   body {
@@ -106,8 +105,12 @@ padding: 0 1x;
   font-size: 26px;
   text-align:  center;
 }
- .button-primary {
-width: 100%;
- }
+
+}
+
+@media (max-width: 500px) {
+  .button-primary {
+    width: 100%;
+     }
 }
 

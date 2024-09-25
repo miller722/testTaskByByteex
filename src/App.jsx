@@ -8,6 +8,8 @@ import About from "./sections/About";
 import Order from "./sections/Order";
 import Testimonials from "./sections/Testimonials";
 import FAQ from "./sections/FAQ";
+import InfoBanner from "./sections/InfoBanner";
+import Final from "./sections/Final";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
       <Order />
       <Testimonials />
       <FAQ />
+      <InfoBanner />
+      <Final />
     </>
   );
 }

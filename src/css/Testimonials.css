@@ -52,18 +52,29 @@
     height: 39px;
   }
 
+  .swiper-button-prev:after, .swiper-button-next:after{
+    font-size: 25px !important;
+    color: #676869;
+}
+ .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: var(--swiper-pagination-bottom, 7% ) !important;
+  top: var(--swiper-pagination-top, auto);
+  left: 0;
+  width: 100%;
+}
+
   @media (max-width: 500px) {
     .testimonials__description  {
         width: 300px;
     }
     .testimonials-wrapper-img {
-        grid-template-columns: repeat(4, 1fr); /* 4 картинки в рядок */
-        grid-template-rows: repeat(2, auto); /* Два рядки */
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, auto); 
         max-width: 100%;
         gap: 3px;
     }
     .testimonials-wrapper-img img:nth-child(n+9) {
-        display: none; /* Ховаємо всі картинки після 8 */
+        display: none; 
       }
     .swiper-button-prev:after, .swiper-button-next:after{
         font-size: 15px !important;
