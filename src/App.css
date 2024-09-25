@@ -3,6 +3,8 @@
 @import "./css/Features.css";
 @import "./css/About.css";
 @import "./css/Order.css";
+@import "./css/Testimonials.css";
+@import "./css/FAQ.css";
 
 :root {
   --main-title-color: #01005B; 
@@ -11,6 +13,7 @@
 body {
   font-family: 'Sofia Pro', sans-serif;
   box-sizing: border-box;
+  line-height: 23px;
 }
 h1,
 h2,
@@ -75,6 +78,10 @@ button:hover {
 
 
 @media (max-width: 800px) {
+
+  body {
+    line-height: 18px;
+  }
   .header span:not(.shipping) {
     display: none; 
 }
@@ -100,7 +107,7 @@ padding: 0 1x;
   text-align:  center;
 }
  .button-primary {
-  width: 100%;
+width: 100%;
  }
 }
 

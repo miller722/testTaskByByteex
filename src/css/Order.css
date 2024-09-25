@@ -47,6 +47,12 @@
     .order__title {
         margin-bottom: 25px;
     }
+
+    /* .customer-reviews > span + span {
+        margin-left: 2px;
+        white-space: nowrap;
+
+      } */
     .swiper-button-prev:after, .swiper-button-next:after{
         font-size: 25px !important;
         color: #676869;

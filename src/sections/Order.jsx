@@ -57,7 +57,7 @@ export default function Order() {
           </SwiperSlide>
         </Swiper>
         <ButtonPrimary description="Customize Your Outfit" />
-        <div className="mt-3 customer-reviews">
+        <div className="mt-2 customer-reviews">
           <span role="img" aria-label="star">
             ⭐️⭐️⭐️⭐️⭐️
           </span>
