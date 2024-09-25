@@ -1,5 +1,12 @@
 import { Container, Row, Col, Image } from "react-bootstrap";
 import ButtonPrimary from "../components/ButtonPrimary";
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 export default function Features() {
   return (
@@ -109,14 +116,46 @@ export default function Features() {
             </div>
           </Col>
           <Col xxl={{ span: 4, offset: 3 }}>
-            <div className="image__wrapper">
-              <img
-                src="images/section-features-img.png"
-                className="image"
-                alt="Loungewear"
-              />
-              <p>White Robe</p>
-            </div>
+            <Swiper
+              // install Swiper modules
+              modules={[Navigation, Pagination, Scrollbar, A11y]}
+              navigation
+              pagination={true}
+              slidesPerView={1}
+              spaceBetween={10}
+              // Responsive breakpoints
+            >
+              <SwiperSlide>
+                <div className="image__wrapper">
+                  <img
+                    src="images/section-features-img.png"
+                    className="image"
+                    alt="Loungewear"
+                  />
+                  <p>White Robe</p>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="image__wrapper">
+                  <img
+                    src="images/section-features-img.png"
+                    className="image"
+                    alt="Loungewear"
+                  />
+                  <p>White Robe</p>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="image__wrapper">
+                  <img
+                    src="images/section-features-img.png"
+                    className="image"
+                    alt="Loungewear"
+                  />
+                  <p>White Robe</p>
+                </div>
+              </SwiperSlide>
+            </Swiper>
           </Col>
         </Row>
       </Container>

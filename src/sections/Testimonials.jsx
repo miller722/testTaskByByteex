@@ -139,13 +139,20 @@ export default function Testimonials() {
           spaceBetween={10}
           // Responsive breakpoints
           breakpoints={{
-            540: {
+            500: {
+              slidesPerView: 1,
+              spaceBetween: 10,
+            },
+            700: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            1200: {
               slidesPerView: 3,
-              spaceBetween: 40,
+              spaceBetween: 30,
             },
           }}
         >
-          {/* Відгуки */}
           <SwiperSlide>
             <div className="testimonial-content">
               <div className="d-flex align-items-center">

@@ -1,0 +1,30 @@
+.infoBanner-section {
+    background-color: #F0EEEF;
+    padding: 40px 20px;
+    color: var(--main-title-color);
+}
+
+.infoBanner__item {
+    border-right: 2px solid rgba(196, 196, 196, 0.5);
+    
+
+}
+.infoBanner__item:last-child {
+    border: none;
+
+}
+
+@media (max-width: 500px){
+    .infoBanner-section h2{
+        margin-bottom: 12px !important;
+    }
+    
+    .infoBanner__item {
+        border-right: none;
+        border-bottom: 1px solid#C4C4C480;
+        padding: 25px 0;
+    }
+    .infoBanner__item:last-child {
+       display: none;
+    }
+}
